@@ -1,0 +1,98 @@
+/* body {
+  background: linear-gradient(45deg, lightgoldenrodyellow, lightgreen);
+} */
+.title {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img {
+  max-width: 600px;
+}
+.main-info {
+  max-width: 500px;
+}
+
+.main-info p {
+  font-size: 20px;
+  color: #484a8f;
+}
+.main-info ul {
+  padding-left: 17px;
+}
+.main-info a {
+  font-size: 20px;
+  color: green;
+}
+
+.form {
+  max-width: 420px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.form input {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 23px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #d7d7d7;
+}
+.form input:hover {
+  transform: scale(1.02);
+}
+.form button {
+  background: green;
+  color: white;
+  padding: 16px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form button:hover {
+  background: rgb(114, 180, 15);
+}
+
+.title span {
+  color: green;
+}
+
+#theme-option {
+  position: relative;
+  left: 80%;
+  top: 50px;
+  border: 2px solid rgb(227, 225, 225);
+  border-radius: 4px;
+  color: rgb(150, 150, 150);
+}
+#theme-option:hover {
+  background: linear-gradient(45deg, lightgoldenrodyellow, lightgreen);
+}
+
+#errorMessage {
+  color: red;
+  text-align: center;
+  height: 60px;
+}
+
+#successMessage {
+  color: rgb(40, 119, 40);
+  font-size: 18px;
+  text-align: center;
+  height: 20px;
+}
